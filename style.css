@@ -1,0 +1,105 @@
+
+/*Set all HTML elements to border-box sizing*/
+* {
+  box-sizing: border-box;
+}
+
+/*Styles for the main page*/
+.wrapper {  
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color:lightgray;
+    color: darkslateblue;
+    }
+
+/*Styles for the header elements*/
+header {
+    color: darkslateblue;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 180px;
+    } 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    }
+header h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    }
+
+/*Styles for the body*/
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-color: black;
+    }
+
+/*Styles for the main elements*/
+main {
+    background-color: slategray;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    }    
+h3 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+/*Styles for the footer elements*/
+footer {
+    color: darkslateblue;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;  
+    text-align: center;
+    padding-top: 25px;
+    height: 100px;
+    }
+
+/*Styles for the list elements*/
+ol, ul {
+    text-indent: 30%;
+    list-style-position: inside;
+    text-align: left;
+    }
+
+/*Set the margin and padding for the article and sections*/
+article {
+    margin-top: 25px;
+    padding-top: 20px;
+    }
+section {
+    padding: 15px;  
+    }
+
+/*Center the text of this class element*/
+.text-center {
+    width: 75%;
+    text-align: justify;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*Styles for the link elements*/
+a  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    }
+  
+  a:link    { color: blue;  }
+  a:visited { color: purple;   }
+  a:hover   { color: black; }
+  a:active  { color: pink;  }
+
